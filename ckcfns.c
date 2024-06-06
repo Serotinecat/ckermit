@@ -4764,7 +4764,7 @@ sdata() {
           causing (for example) the LEN field of a short packet
           to be out of range. - fdc, 14 September 2022
         */
-        if (spsiz <= 94 && spsiz > 90) spsiz = 90;
+        if (spsiz <= 94 && spsiz > 86) spsiz = 86;
 
 #ifdef CKTUNING
 
